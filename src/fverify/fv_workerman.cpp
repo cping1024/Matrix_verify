@@ -208,7 +208,7 @@ int64_t FV_WorkerMan::AddFeature(int libid, int64_t nfeature, int64_t* fid, floa
 
             added_device_id = device_id_;
             device_id_ = (device_id_+1)%devices_.size();
-            //can_add_num = FV_BLOCKSZ;
+            can_add_num = FV_BLOCKSZ;
         }
 	
         int64_t addnum = can_add_num > nleft ? nleft : can_add_num;
