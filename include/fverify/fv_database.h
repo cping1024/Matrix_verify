@@ -1,17 +1,6 @@
 #ifndef _FV_DATABASE_H_
 #define _FV_DATABASE_H_
 
-/*******************************************************************************
- *
- * Copyright © 2016 SenseNets All rights reserved.
- * File name: fv_database.h
- * Touch time: Wed 11 May 2016 04:49:23 PM CST
- * Author: Yuanpeng Zhang <zhangyuanpeng@sensenets.com>
- * Description:
- * TODO: 1 block size feature add!
- *
-*******************************************************************************/
-
 #include <cuda_runtime.h>
 
 #include "fv_define.h"
