@@ -329,11 +329,6 @@ int test_featureVerify(){
     int64_t* d_topID = new int64_t[topN];
 
     /// load defined features!
-    load_libbin("/home/zhangyuanpeng/workspace/sensenets/feature_verify/features_lib/1.bin", def_feature);
-    load_libbin("/home/zhangyuanpeng/workspace/sensenets/feature_verify/features_lib/2.bin", def_feature + FV_FEATURESZ);
-    load_libbin("/home/zhangyuanpeng/workspace/sensenets/feature_verify/features_lib/111.bin", def_feature + 2 * FV_FEATURESZ);
-    load_libbin("/home/zhangyuanpeng/workspace/sensenets/feature_verify/features_lib/121.bin", def_feature + 3 * FV_FEATURESZ);
-
     std::vector<int > libids;
     libids.push_back(0);
     libids.push_back(1);
